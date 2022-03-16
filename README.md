@@ -24,7 +24,7 @@ Speed Test File
 Using the eval command, create a field called ratio that shows the ratio between the upload and download speeds. 
 
 source="speedtestfile.csv" host="speedtestfileA" sourcetype="csv" | eval ratio='UPLOAD_MEGABITS'/'DOWNLOAD_MEGABITS' 
-
+![splunk1](https://user-images.githubusercontent.com/89311706/158698181-8ae3a7e5-946b-4025-97ba-45dd67ff4a41.png)
  
 
   
