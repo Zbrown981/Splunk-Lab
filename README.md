@@ -57,7 +57,7 @@ How long did it take your systems to recover?
 About 9 hours. 
 
 Submit a screen shot of your report and the answer to the questions above. 
-
+![splunk2](https://user-images.githubusercontent.com/89311706/158698467-4044b4e2-2cf2-4ad1-953b-3c0727bf4ee8.png)
  
 
   
