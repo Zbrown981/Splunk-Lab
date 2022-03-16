@@ -95,7 +95,7 @@ Submit a screenshot of your report and a screenshot of proof that the alert has 
 Report:  source="nessus_logs.csv" host="nessuslogs" sourcetype="csv" dest_ip="10.11.36.23" severity=critical | stats count by severity  
 ![splunk3](https://user-images.githubusercontent.com/89311706/158698601-fc94deab-d882-4c30-b56a-b67110390f27.png)
 Alert:    source="nessus_logs.csv" host="nessuslogs" sourcetype="csv" dest_ip="10.11.36.23" severity=critical 
-
+![splunk4](https://user-images.githubusercontent.com/89311706/158698733-0c0a1d0d-673a-4742-a1cf-ae6b641278d7.png)
  
 
  
