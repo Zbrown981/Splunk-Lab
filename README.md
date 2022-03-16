@@ -1,5 +1,5 @@
 # Splunk-Lab
-Vandalay Industries Monitoring Activity Instructions 
+## Vandalay Industries Monitoring Activity Instructions 
 
 Step 1: The Need for Speed 
 
@@ -35,17 +35,16 @@ Create a report using the Splunk's table command to display the following fields
 
   
 
-_time 
+- _time 
 
-IP_ADDRESS 
+- IP_ADDRESS 
 
-DOWNLOAD_MEGABITS 
+- DOWNLOAD_MEGABITS 
 
-UPLOAD_MEGABITS 
+- UPLOAD_MEGABITS 
 
-ratio 
+- ratio 
 
-Hint: Use the following format when for the table command: | table fieldA fieldB fieldC 
 
 source="speedtestfile.csv" host="speedtestfileA" sourcetype="csv" | eval ratio='UPLOAD_MEGABITS'/'DOWNLOAD_MEGABITS' | table _time IP_ADDRESS DOWNLOAD_MEGABITS UPLOAD_MEGABITS ratio 
 
