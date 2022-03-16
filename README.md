@@ -96,7 +96,7 @@ Report:  source="nessus_logs.csv" host="nessuslogs" sourcetype="csv" dest_ip="10
 ![splunk3](https://user-images.githubusercontent.com/89311706/158698601-fc94deab-d882-4c30-b56a-b67110390f27.png)
 Alert:    source="nessus_logs.csv" host="nessuslogs" sourcetype="csv" dest_ip="10.11.36.23" severity=critical 
 ![splunk4](https://user-images.githubusercontent.com/89311706/158698733-0c0a1d0d-673a-4742-a1cf-ae6b641278d7.png)
- 
+ ![splunk5](https://user-images.githubusercontent.com/89311706/158698896-1f5bcabc-ab26-4865-98cb-90a8ec8787e9.png)
 
  
 
