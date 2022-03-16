@@ -93,7 +93,7 @@ Build an alert that monitors every day to see if this server has any critical vu
 Submit a screenshot of your report and a screenshot of proof that the alert has been created. 
 
 Report:  source="nessus_logs.csv" host="nessuslogs" sourcetype="csv" dest_ip="10.11.36.23" severity=critical | stats count by severity  
-
+![splunk3](https://user-images.githubusercontent.com/89311706/158698601-fc94deab-d882-4c30-b56a-b67110390f27.png)
 Alert:    source="nessus_logs.csv" host="nessuslogs" sourcetype="csv" dest_ip="10.11.36.23" severity=critical 
 
  
